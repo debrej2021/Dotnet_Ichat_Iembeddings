@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "SyncTest/1.0.0": {
+        "dependencies": {
+          "Polly": "8.6.6",
+          "Polly.Extensions.Http": "3.0.0"
+        },
+        "runtime": {
+          "SyncTest.dll": {}
+        }
+      },
+      "Polly/8.6.6": {
+        "dependencies": {
+          "Polly.Core": "8.6.6"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.6.5454"
+          }
+        }
+      },
+      "Polly.Core/8.6.6": {
+        "runtime": {
+          "lib/net8.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.6.5454"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "8.6.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SyncTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Polly/8.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-czKHYJ6uGowPijuZt4kgF4njfGvWxVZ8mKBcrZ9iEtwDe9HKdF0ug6p6TwUG8EHuuufgbDU//rSBFebt5/0Fyw==",
+      "path": "polly/8.6.6",
+      "hashPath": "polly.8.6.6.nupkg.sha512"
+    },
+    "Polly.Core/8.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lCBL9mmhF9TZxHG3beVRkyjlLohkIC464xIAq7J7Y59C+z42hmsdUaeCKl2SIAYertOUU5TeBXyQDLDQGIKePQ==",
+      "path": "polly.core/8.6.6",
+      "hashPath": "polly.core.8.6.6.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    }
+  }
+}
